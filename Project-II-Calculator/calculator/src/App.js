@@ -7,7 +7,7 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 const numbers1 = [7,8,9];
 const numbers2 =[4,5,6];
 const numbers3 =[1,2,3];
-const signs = ['/', 'x', '-', '+', '='];
+
 
 
 
@@ -20,7 +20,7 @@ const App= () => {
 
     </div>
     <div className='row'>
-      <ActionButton text='clear' buttonStyle='buttonStyle actionButton bigButton' />
+      <ActionButton text='clear' buttonStyle='  bigButton' />
       <ActionButton text='&#247;' buttonStyle='buttonStyle actionButton'/>
     </div>
     <div className='row'>

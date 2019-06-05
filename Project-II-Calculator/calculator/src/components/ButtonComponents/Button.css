@@ -2,34 +2,22 @@
     margin: 30px auto;
     width: 400px;
   }
-  
-.buttons {
-    display: flex;
+
+.bigButton{
+    width:300px;
+    height:110px;
+    background-color: #fff;
+    font-size: 50px;
 }
   
-.numbers {
-    width: 300px;
-    height: 500px;
-    display: flex;
-    flex-wrap: wrap;
-}
-  
-.action {
-    width: 300px;
-    height: 100px;
-    font-size: 30px;
-    font-weight: bold;
-}
-  
-.number {
-  background-color: #fff;
+.buttonStyle {
   width: 100px;
   height: 100px;
   font-size: 30px;
-  font-weight: bold;
+  background-color: #fff;
 }
-
-.operator {
+  
+.actionButton {
   background-color: maroon;
   width: 100px;
   height: 100px;
